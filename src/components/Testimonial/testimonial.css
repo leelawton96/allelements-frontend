@@ -1,0 +1,8 @@
+.testimonial-slide {
+ background: #FFFFFF;
+ box-shadow: 0px 0px 35px rgb(0 0 0 / 10%);
+ border-radius: 16px;
+}
+.testimonial-slide-wrapper {
+ padding: 10px;
+}

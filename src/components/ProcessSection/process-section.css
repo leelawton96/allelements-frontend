@@ -1,0 +1,6 @@
+.process-section {
+ background-image: url("../../images/pipes_bg.png");
+ background-size: cover;
+ background-repeat: no-repeat;
+ min-height: 540px;
+}
