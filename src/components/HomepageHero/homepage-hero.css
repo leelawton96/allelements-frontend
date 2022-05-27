@@ -1,6 +1,6 @@
 
 .container-background {
- background-image: url('../../images/home_header_bg.png');
+ background-image: url('../../images/home-header-bg.webp');
  background-repeat: no-repeat;
  background-size: cover;
  padding: 0px;
@@ -57,13 +57,13 @@
  right: 0;
  min-height: 140px;
 }
-.partner-logo {
+/* .partner-logo {
  max-height: 32px;
  width: 100%;
  object-fit: contain;
  margin-top: auto;
  margin-bottom: auto;
-}
+} */
 
 
 /* Small devices (landscape phones, 576px and up) */

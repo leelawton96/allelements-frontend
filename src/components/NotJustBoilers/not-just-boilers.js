@@ -1,4 +1,6 @@
 import React from "react"
+import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 import "../Testimonial/testimonial.css"
 import GasEngineer from "../../images/gas_engineer.png"
 import Family from "../../images/family.png"
@@ -18,7 +20,7 @@ const NotJustBoilers = () => {
 
       <div class="col-12 col-md-6 pb-4 pb-lg-0">
         <div class="container-image-bg">
-          <img class="pb-4 container-image-top" src={GasEngineer} alt="Gas Engineer"/>
+        <StaticImage className="pb-4 container-image-top" src="../../images/gas_engineer.png" alt="Gas Engineer" />
           <div class="container container-text px-4 py-3 pb-5">
             <h3 class="mb-4">We’re here for the <span class="font-bold">long haul.</span></h3>
             <p class="mb-4">Annual servicing of gas appliances vital to their continued efficiency and safety.</p>
@@ -29,7 +31,7 @@ const NotJustBoilers = () => {
       </div>
       <div class="col-12 col-md-6 pb-4 pb-lg-0">
         <div class="container-image-bg">
-          <img class="pb-4 container-image-top" src={Family} alt="Family"/>
+        <StaticImage className="pb-4 container-image-top" src="../../images/family.png" alt="Family" />
           <div class="container container-text px-5 py-3 pb-5">
             <h3 class="mb-4">We’ll get your boiler <span class="font-bold">back up and running.</span></h3>
             <p class="mb-5">If your current boiler/heating system needs a little TLC to bring it back to life, our skilled engineers can find and fix the issue. <br/><br/> With access to next day spares *, we can soon get you warm again.</p>

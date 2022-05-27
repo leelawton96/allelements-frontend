@@ -1,8 +1,8 @@
 import React from "react"
 // import { StaticQuery, graphql } from 'gatsby';
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 import "./navbar.css"
-import NavLogo from "../../images/All_Elements_Logo_Dark.png"
 
 // const query = graphql`
 //   query {
@@ -43,7 +43,16 @@ const Navbar = () => {
                 )}
               /> */}
 
-              <Link className="nav-link navbar-brand" to="/"><img src={NavLogo} alt="All Elements Logo"/></Link>
+              <Link className="nav-link navbar-brand" to="/">
+                <StaticImage 
+                src="../../images/All_Elements_Logo_Dark.png" 
+                alt="All Elements Logo" 
+                placeholder="blurred"
+                layout="fixed"
+                objectFit="contain"
+                height={80}
+                />
+              </Link>
 
                <div class="collapse navbar-collapse" id="navbarNavDropdown">
                  <ul class="navbar-nav ms-lg-auto">
