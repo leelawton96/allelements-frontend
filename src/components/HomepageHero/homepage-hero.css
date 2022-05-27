@@ -17,7 +17,7 @@
  z-index: 1;
 }
 .home-bg {
- position: absolute;
+ position: absolute !important;
  bottom: 0;
  right: 0;
  z-index: 1;
