@@ -10,7 +10,7 @@ const HomepageHero = () => {
   <div>
          <div class="container-fluid container-background">
 
-         <StaticImage className="home-bg" src="../../images/home_bg.svg" alt="Home Icon Background" layout="fixed" placeholder="blurred" />
+         <StaticImage className="home-bg" imgClassName="home-bg" src="../../images/home_bg.svg" alt="Home Icon Background" layout="fixed" placeholder="blurred" />
 
          <div class="container-fluid header-container">
            <div class="container">

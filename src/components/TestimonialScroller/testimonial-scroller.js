@@ -117,14 +117,14 @@ const settings = {
     <div class="d-flex justify-content-center mb-5">
      <button 
      onClick={previous}
-     ariaLabel="Scroll Left"
+     aria-label="Scroll Left"
      type="button" 
      class="slick-buttons prev-boilers d-inline">
        <img src={WhitePrevArrow} alt=""/>
      </button>
      <button 
      onClick={next}
-     ariaLabel="Scroll Right"
+     aria-label="Scroll Right"
      type="button" 
      class="slick-buttons next-boilers d-inline">
        <img src={WhiteNextArrow} alt=""/>
