@@ -78,7 +78,7 @@ const BoilerScroller = () => {
               <div class="slide-wrapper">
                 <div class="text-center py-4 slide">
                   <div><span class="boiler-tag">Popular</span></div>
-                  <StaticImage className="boiler-image mx-auto d-inline-block" src="../../images/baxi_boiler.png" alt="Baxi Boiler" />
+                  <StaticImage className="boiler-image mx-auto d-inline-block" loading="lazy" src="../../images/baxi_boiler.png" alt="Baxi Boiler" />
                   <h4 class="boiler-text font-bold">Baxi 600 Boiler</h4>
                   <h4 class="boiler-price orange">Fitted from £1944.00</h4>
                 </div>
@@ -87,7 +87,7 @@ const BoilerScroller = () => {
               <div class="slide-wrapper">
                 <div class="text-center py-4 slide">
                   <div><span class="boiler-tag">Amazing efficiency</span></div>
-                  <StaticImage className="boiler-image mx-auto d-inline-block" src="../../images/baxi_boiler.png" alt="Baxi Boiler" />
+                  <StaticImage className="boiler-image mx-auto d-inline-block" loading="lazy" src="../../images/baxi_boiler.png" alt="Baxi Boiler" />
                   <h4 class="boiler-text font-bold">Viessmann 100-W Boiler</h4>
                   <h4 class="boiler-price orange">Fitted from £2305.00</h4>
                 </div>
@@ -96,7 +96,7 @@ const BoilerScroller = () => {
               <div class="slide-wrapper">
                 <div class="text-center py-4 slide">
                   <div><span class="boiler-tag">Best value</span></div>
-                  <StaticImage className="boiler-image mx-auto d-inline-block" src="../../images/baxi_boiler.png" alt="Baxi Boiler" />
+                  <StaticImage className="boiler-image mx-auto d-inline-block" loading="lazy" src="../../images/baxi_boiler.png" alt="Baxi Boiler" />
                   <h4 class="boiler-text font-bold">Baxi 630 Gas Combi Boiler</h4>
                   <h4 class="boiler-price orange">Fitted from £1,945</h4>
                 </div>
@@ -105,7 +105,7 @@ const BoilerScroller = () => {
               <div class="slide-wrapper">
                 <div class="text-center py-4 slide">
                   <div><span class="boiler-tag">Best value</span></div>
-                  <StaticImage className="boiler-image mx-auto d-inline-block" src="../../images/baxi_boiler.png" alt="Baxi Boiler" />
+                  <StaticImage className="boiler-image mx-auto d-inline-block" loading="lazy" src="../../images/baxi_boiler.png" alt="Baxi Boiler" />
                   <h4 class="boiler-text font-bold">Baxi 630 Gas Combi Boiler</h4>
                   <h4 class="boiler-price orange">Fitted from £1,945</h4>
                 </div>
@@ -138,12 +138,14 @@ const BoilerScroller = () => {
             <div class="d-flex justify-content-center mb-5">
               <button 
               onClick={previous}
+              ariaLabel="Scroll Left"
               type="button" 
               class="slick-buttons prev-boilers d-inline">
                 <img src={BlackPrevArrow} alt=""/>
               </button>
               <button 
               onClick={next}
+              ariaLabel="Scroll Right"
               type="button" 
               class="slick-buttons next-boilers d-inline">
                 <img src={BlackNextArrow} alt=""/>
