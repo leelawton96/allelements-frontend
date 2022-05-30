@@ -1,0 +1,32 @@
+
+.cta-section {
+ background-image: url(../../images/cta-bg.webp);
+ background-repeat: no-repeat;
+ background-size: cover;
+ min-height: 400px;
+}
+.tel-icon {
+ width: 50px;
+ height: 50px;
+}
+.tel-text {
+font-weight: 700;
+font-size: 36px;
+color: var(--white);
+text-decoration: none;
+}
+.tel-text:hover {
+ color: var(--white);
+}
+.tel {
+ transition: all .2s ease-in-out;
+}
+.tel:hover {
+ transform: scale(1.05); 
+}
+.accordion {
+ background: var(--white);
+ box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.1);
+ border-radius: 16px;
+ padding: 20px 0px;
+}

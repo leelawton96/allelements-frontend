@@ -97,6 +97,9 @@ left: 50%;
 .active {
  border-bottom: solid 2px var(--orange);
 }
+.nav-link:active {
+  border-bottom: solid 2px var(--orange) !important;
+}
 .dropdown-menu {
  padding: 0px;
  border: 0;

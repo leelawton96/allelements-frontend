@@ -403,12 +403,12 @@ text-decoration: none;
   box-shadow: none;
 }
 .accordion-button:not(.collapsed)::after {
-  background-image: url('/assets/accordion_button.svg');
+  background-image: url('../images/accordion_button.svg');
   background-size: 15px;
   transform: rotate(90deg);
 }
 .accordion-button::after {
-  background-image: url("/assets/accordion_button.svg");
+  background-image: url("../images/accordion_button.svg");
   background-size: 15px;
   transform: rotate(45deg);
 }

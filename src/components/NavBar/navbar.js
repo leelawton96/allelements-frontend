@@ -56,26 +56,26 @@ const Navbar = () => {
 
                <div class="collapse navbar-collapse" id="navbarNavDropdown">
                  <ul class="navbar-nav ms-lg-auto">
-                   <li class="nav-item active">
-                    <Link className="nav-link" to="/">Home</Link>
+                   <li class="nav-item">
+                    <Link activeClassName="active" className="nav-link" to="/">Home</Link>
                    </li>
                    <li class="nav-item dropdown">
                      <span class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                        Boilers & Heating
                      </span>
                      <ul class="dropdown-menu" id="navbarDropdownMenuLink">
-                       <li><Link className="dropdown-item" to="/installations/">Installations</Link></li>
-                       <li><Link className="dropdown-item" to="/boiler-servicing/">Boiler Servicing</Link></li>
+                       <li><Link activeClassName="active" className="dropdown-item" to="/installations/">Installations</Link></li>
+                       <li><Link  activeClassName="active" className="dropdown-item" to="/boiler-servicing/">Boiler Servicing</Link></li>
                      </ul>
                    </li>
                    <li class="nav-item">
-                     <a class="nav-link" href="/other-services/">Other Services</a>
+                    <Link activeClassName="active" className="nav-link" to="/other-services/">Other Services</Link>
                    </li>
                    <li class="nav-item">
-                     <Link className="nav-link" to="/about/">About</Link>
+                     <Link activeClassName="active" className="nav-link" to="/about/">About</Link>
                    </li>
                    <li class="nav-item">
-                   <Link className="nav-link" to="/contact/">Contact</Link>
+                   <Link activeClassName="active" className="nav-link" to="/contact/">Contact</Link>
                    </li>
                    <li class="nav-item mt-2 my-lg-auto btn-orange ms-lg-3 ms-xl-5">
                      <a href="/">Buy Your New Boiler</a>

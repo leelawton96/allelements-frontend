@@ -68,7 +68,7 @@ const BoilerScroller = () => {
 
  return (
 
-        <div class="container text-center pb-5">
+        <div class="container text-center pb-5 pt-5">
           <h2>Choose the right boiler <span class="font-bold">for your budget.</span> </h2>
           <p>Find the right fit for the right place!</p>
 
@@ -89,7 +89,7 @@ const BoilerScroller = () => {
                   <div><span class="boiler-tag">Amazing efficiency</span></div>
                   <StaticImage className="boiler-image mx-auto d-inline-block" loading="lazy" src="../../images/baxi_boiler.png" alt="Baxi Boiler" />
                   <h4 class="boiler-text font-bold">Viessmann 100-W Boiler</h4>
-                  <h4 class="boiler-price orange">Fitted from £2305.00</h4>
+                  <h4 class="boiler-price orange">Fitted from £2,305.00</h4>
                 </div>
               </div>
 
