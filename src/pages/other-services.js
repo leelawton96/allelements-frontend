@@ -135,8 +135,7 @@ const Installations = () => {
 
             </div>
 
-            <Link className="btn-orange mb-5 mb-lg-5" to="/contact/">Get Started Now</Link>
-            <a href="/boiler_quote_tool.html" class="btn-orange mb-5 mb-lg-5">Get Started Now</a>
+            <Link className="btn-orange mb-5 mb-lg-5" to="/boiler-quote-tool/">Get Started Now</Link>
             
           </div>
         </div>

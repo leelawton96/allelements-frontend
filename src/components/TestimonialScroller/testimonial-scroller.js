@@ -80,16 +80,24 @@ const settings = {
           Name="Katherine and Howard"             
         />
         <Testimonial
-          Quote="We used Chris to deal with all our plumbing and heating during a recent house renovation. We were totally impressed by Chris, particularly his 'can do attitude. Nothing was too much trouble. We have no hesitation in recommending All Elements Property Services."
-          Name="Katherine and Howard"             
+          Quote="Can’t thank Chris enough for all of his hard work on my house. He repaired and serviced my boiler, and I was so impressed with his workmanship that I employed him to install my bathroom a few months later. Couldn’t be happier, I’ll definitely be using All Elements again in the future."
+          Name="Laura"             
         />
         <Testimonial
-          Quote="We used Chris to deal with all our plumbing and heating during a recent house renovation. We were totally impressed by Chris, particularly his 'can do attitude. Nothing was too much trouble. We have no hesitation in recommending All Elements Property Services."
-          Name="Katherine and Howard"             
+          Quote="We would definitely recommend Chris. We initially found him on the gas safe register as we needed someone to install a gas hob and kitchen sink. Since then he's become our go-to person for jobs around the house. He has also serviced our boiler and repaired the toilet and dishwasher. He is always friendly, responsive and gets the job done."
+          Name="Paulina"             
         />
         <Testimonial
-          Quote="We used Chris to deal with all our plumbing and heating during a recent house renovation. We were totally impressed by Chris, particularly his 'can do attitude. Nothing was too much trouble. We have no hesitation in recommending All Elements Property Services."
-          Name="Katherine and Howard"             
+          Quote="Great communication, very good pricing, nice and pleasant worker that is willing to give advice and help.Very tidy boiler job completed quickly and other appliances serviced."
+          Name="Steve"             
+        />
+        <Testimonial
+          Quote="I used this company again today to repair a leaking toilet as I was very happy with their boiler service a few weeks ago.  I was once again very pleased with the work and service provided- very professional, honest and helpful. Highly recommended"
+          Name="Elaine"             
+        />
+        <Testimonial
+          Quote="Have used All Elements Property Services for a few jobs I needed doing. Had a new radiator fitted and my boiler serviced by Chris, he arrived on time and got the jobs done in good time! Was very pleased with how tidy he kept things! Will be using them again for any future work needs doing!"
+          Name="Craig"             
         />
 
       </Slider>

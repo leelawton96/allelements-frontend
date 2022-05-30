@@ -4,6 +4,7 @@ import TestimonialScroller from "../components/TestimonialScroller/testimonial-s
 import HomeBG from "../images/home_bg.svg"
 import Check from "../images/check_icon.svg"
 import AboutImage from "../images/about.png"
+import { Link } from "gatsby"
 
 
 const AboutPage = () => {
@@ -50,7 +51,7 @@ const AboutPage = () => {
           <li>Digital Certificates</li>
           <li>Email Reminders</li>
         </ul>
-        <a href="/contact.html" class="btn-orange">Get in Touch</a>
+        <Link className="btn-orange" to="/contact/">Get in Touch</Link>
       </div>
     </div>
   </div>
@@ -101,8 +102,8 @@ const AboutPage = () => {
                     </div>
                   </div>
                 </div>
-
-                <a href="/contact.html" class="btn-orange mb-5 mb-lg-5">Get Started Now</a>
+                
+                <Link className="btn-orange mb-5 mb-lg-5" to="/contact/">Get Started Now</Link>
 
               </div>
             </div>

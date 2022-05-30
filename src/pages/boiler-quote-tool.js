@@ -7,7 +7,7 @@ const BoilerQuoteTool = () => {
     <Layout>
       <main>
 
-        
+      <script async defer id="truequote_script" src="https://truequote.co.uk/quote/alle20210421091343/js" />
 
       </main>
     </Layout>

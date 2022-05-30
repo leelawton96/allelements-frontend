@@ -46,7 +46,7 @@ const Installations = () => {
               <h2 class="me-md-5">Top-notch boiler installations, <span class="font-bold">for all budgets.</span></h2>
               <p>Having a new boiler fitted can feel like a big commitment, but it doesn’t have to. 
                 If your boiler needs regular repairs, makes strange noises, struggles to keep your home warm or is generally temperamental and prone to breaking down, then you probably need a new one.</p>
-              <a href="/boiler_quote_tool.html" class="btn-orange mt-4">Get a free quote now</a>
+                <Link className="btn-orange mt-4" to="/boiler-quote-tool/">Get a free quote now</Link>
             </div>
           </div>
         </div>

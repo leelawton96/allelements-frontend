@@ -18,6 +18,7 @@ import "./navbar.css"
 //   }
 // `;
 
+
 const Navbar = () => {
   return (
 
@@ -48,9 +49,9 @@ const Navbar = () => {
                 src="../../images/All_Elements_Logo_Dark.png" 
                 alt="All Elements Logo" 
                 placeholder="blurred"
-                layout="fixed"
+                layout="constrained"
                 objectFit="contain"
-                height={80}
+                height={70}
                 />
               </Link>
 
@@ -72,13 +73,13 @@ const Navbar = () => {
                     <Link activeClassName="active" className="nav-link" to="/other-services/">Other Services</Link>
                    </li>
                    <li class="nav-item">
-                     <Link activeClassName="active" className="nav-link" to="/about/">About</Link>
+                    <Link activeClassName="active" className="nav-link" to="/about/">About</Link>
                    </li>
                    <li class="nav-item">
-                   <Link activeClassName="active" className="nav-link" to="/contact/">Contact</Link>
+                    <Link activeClassName="active" className="nav-link" to="/contact/">Contact</Link>
                    </li>
                    <li class="nav-item mt-2 my-lg-auto btn-orange ms-lg-3 ms-xl-5">
-                     <a href="/">Buy Your New Boiler</a>
+                    <Link to="/boiler-quote-tool/">Buy Your New Boiler</Link>
                    </li>
                  </ul>
                </div>
@@ -87,8 +88,22 @@ const Navbar = () => {
 
 
          </div>
+
+          <script>
+
+            
+          </script>
+
      </div>
   )
 }
+
+// document.querySelector('.second-button').addEventListener('click', function () {
+
+//   document.querySelector('.animated-icon2').classList.toggle('open');
+
+// });
+
+
 
 export default Navbar
