@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `All Elements | Boiler installations for all budgets!`,
+    description: `All Elements is your local, reliable heating and plumbing experts in Staffordshire. From boiler installations and services to bathrooms, get in touch today to find out about our services.`,
+    author: `Lee Lawton Design`,
+    siteUrl: `https://www.-all-elements.co.uk`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
