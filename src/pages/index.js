@@ -16,7 +16,7 @@ const IndexPage = () => {
       <SEO 
         url="https://www.all-elements.co.uk"
         title="All Elements | Boiler installations for all budgets!"
-        description="All Elements is your local, reliable heating and plumbing experts in Staffordshire. From boiler installations and services to bathrooms, get in touch today to find out about our services."
+        description="All Elements is your local, reliable heating and plumbing experts in Staffordshire & Cheshire. From boiler installations and services to bathrooms, get in touch"
       />
       <HomepageHero />
       <BoilerScroller />

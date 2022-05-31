@@ -11,6 +11,11 @@ const Contact = () => {
   return (
     <Layout>
       <main>
+      <SEO 
+        url="https://www.all-elements.co.uk"
+        title="Contact Us | All Elements Property Services"
+        description="All Elements is your local, reliable heating and plumbing experts in Staffordshire & Cheshire. From boiler installations and services to bathrooms, get in touch"
+      />
 
       <div class="container-fluid content-bg">
           <img class="content-home-bg" src="assets/home_bg.svg" alt=""/>

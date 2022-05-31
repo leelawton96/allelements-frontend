@@ -12,6 +12,11 @@ const AboutPage = () => {
   return (
     <Layout>
       <main>
+      <SEO 
+        url="https://www.all-elements.co.uk"
+        title="About | All Elements Property Services"
+        description="All Elements is your local, reliable heating and plumbing experts in Staffordshire & Cheshire. From boiler installations and services to bathrooms, get in touch"
+      />
   {/* Header Image */}
 
   <div class="container-fluid content-bg">

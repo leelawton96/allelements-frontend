@@ -6,3 +6,9 @@
 .testimonial-slide-wrapper {
  padding: 10px;
 }
+.name {
+ font-size: 16px;
+ line-height: 24px;
+ margin: 0 0 12px;
+ font-weight: bold;
+}

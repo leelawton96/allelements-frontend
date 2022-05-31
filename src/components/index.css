@@ -36,10 +36,10 @@ body {
 }
 :root {
   --white: #ffffff;
-  --orange: #F75609;
+  --orange: #de4600;
   --black: #010F15;
   --grey: #828282;
-  --orange-gradient: linear-gradient(90deg, #F75609 0%, #FF9E44 100%);
+  --orange-gradient: linear-gradient(90deg, #de4600 0%, #FF9E44 100%);
 }
 h1 {
 	font-size: 48px;
