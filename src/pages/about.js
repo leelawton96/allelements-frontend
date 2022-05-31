@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout/layout"
+import SEO from "../components/SEO/seo"
 import TestimonialScroller from "../components/TestimonialScroller/testimonial-scroller"
 import HomeBG from "../images/home_bg.svg"
 import Check from "../images/check_icon.svg"

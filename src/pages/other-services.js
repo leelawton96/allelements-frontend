@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/Layout/layout"
+import SEO from "../components/SEO/seo"
 import HomeBG from "../images/home_bg.svg"
 import CallCTA from "../components/CallCTA/call-cta"
 
