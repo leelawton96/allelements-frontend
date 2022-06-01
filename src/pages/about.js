@@ -51,11 +51,11 @@ const AboutPage = () => {
       <div class="col-12 col-lg-6 p-5">
         <h4 class="font-bold orange font-uppercase">Who are we?</h4>
         <h2 class="me-md-5">Experts in all things <span class="font-bold">heating & plumbing.</span></h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel</p>
+        <p>All Elements Property Services Ltd is a heating company based in Stoke-on-Trent. We have been providing the highest quality installations, servicing, and repairs for our valued customers for the last 20 years. Our engineers are all time served, with over 50 years of collective experience and as such, we are well equipped to deal with all ages of appliances, and all types of installations. Making sure you have a warm home, and a hot shower is what we live for and with our bespoke installations and the pride we take in our work, you can be certain you will be getting the best possible service.</p>
         <ul>
           <li>20 Years Experience</li>
-          <li>Digital Certificates</li>
-          <li>Email Reminders</li>
+          <li>Local</li>
+          <li>Dependable</li>
         </ul>
         <Link className="btn-orange" to="/contact/">Get in Touch</Link>
       </div>
