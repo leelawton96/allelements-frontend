@@ -1,14 +1,12 @@
 import * as React from "react"
 import { Helmet } from "react-helmet"
 
-function SEO (props) {
+function Seo (props) {
 
   return (
 
-    <Helmet>
-      htmlAttributes={{
-        lang: 'en',
-      }}
+    <Helmet htmlAttributes={{ lang: 'en' }}>
+
 
       <meta charset="utf-8" />
       <meta name="description" content={props.description} />
@@ -39,4 +37,4 @@ function SEO (props) {
 }
 
 
-export default SEO
+export default Seo

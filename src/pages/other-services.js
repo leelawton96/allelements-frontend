@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/Layout/layout"
-import SEO from "../components/SEO/seo"
+import Seo from "../components/SEO/seo"
 import HomeBG from "../images/home_bg.svg"
 import CallCTA from "../components/CallCTA/call-cta"
 
@@ -11,7 +11,7 @@ const Installations = () => {
   return (
     <Layout>
       <main>
-      <SEO 
+      <Seo 
         url="https://www.all-elements.co.uk"
         title="Other Services | All Elements Property Services"
         description="All Elements is your local, reliable heating and plumbing experts in Staffordshire & Cheshire. From boiler installations and services to bathrooms, get in touch"

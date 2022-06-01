@@ -28,7 +28,7 @@ const HomepageHero = () => {
                  <h1 class="white mb-4">Boiler installations for <span class="font-bold"> all budgets!</span> </h1>
                  <p class="white mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, 
                    purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor</p>
-                 <a href="/" class="btn-orange mb-5 mb-lg-0">Buy Your New Boiler</a>
+                   <Link className="btn-orange mb-5 mb-lg-0" to="/boiler-quote-tool/">Buy Your New Boiler</Link>
                </div>
  
                <div class="col-lg-7 text-center text-lg-end">
