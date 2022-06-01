@@ -48,3 +48,8 @@
  border-radius: 50px;
  font-size: 10px;
 }
+.boiler-image {
+ max-height: 185px;
+ display: block;
+ margin-bottom: 28px;
+}

@@ -26,7 +26,7 @@ const USPSection = () => {
         <div class="container-bg py-5 px-3 container-usps">
           <img class="pb-4" src={CheckIcon} alt="Peace of Mind"/>
           <h3 class="font-bold">Peace of mind</h3>
-          <p>For your piece of mind all installations are covered by our 12-month workmanship warranty. Any issues and we’ll be there.</p>
+          <p>For your peace of mind all installations are covered by our 12-month workmanship warranty. Any issues and we’ll be there.</p>
         </div>
       </div>
       <div class="col-12 col-md-6 col-lg-3 pb-4 pb-lg-0">

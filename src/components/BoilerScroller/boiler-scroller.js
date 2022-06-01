@@ -78,16 +78,16 @@ const BoilerScroller = () => {
               <div class="slide-wrapper">
                 <div class="text-center py-4 slide">
                   <div><span class="boiler-tag">Popular</span></div>
-                  <StaticImage className="boiler-image mx-auto d-inline-block" loading="lazy" src="../../images/baxi_boiler.png" alt="Baxi Boiler" />
+                  <StaticImage objectFit="contain" className="boiler-image mx-auto d-inline-block" loading="lazy" src="../../images/baxi-600-combi.png" alt="Baxi 600 Boiler" />
                   <h4 class="boiler-text font-bold">Baxi 600 Boiler</h4>
-                  <h4 class="boiler-price orange">Fitted from £1944.00</h4>
+                  <h4 class="boiler-price orange">Fitted from £1,944.00</h4>
                 </div>
               </div>
 
               <div class="slide-wrapper">
                 <div class="text-center py-4 slide">
                   <div><span class="boiler-tag">Amazing efficiency</span></div>
-                  <StaticImage className="boiler-image mx-auto d-inline-block" loading="lazy" src="../../images/baxi_boiler.png" alt="Baxi Boiler" />
+                  <StaticImage objectFit="contain" className="boiler-image mx-auto d-inline-block" loading="lazy" src="../../images/viesmann-100w.jpeg" alt="Viessmann 100-W Boiler" />
                   <h4 class="boiler-text font-bold">Viessmann 100-W Boiler</h4>
                   <h4 class="boiler-price orange">Fitted from £2,305.00</h4>
                 </div>
@@ -96,18 +96,18 @@ const BoilerScroller = () => {
               <div class="slide-wrapper">
                 <div class="text-center py-4 slide">
                   <div><span class="boiler-tag">Best value</span></div>
-                  <StaticImage className="boiler-image mx-auto d-inline-block" loading="lazy" src="../../images/baxi_boiler.png" alt="Baxi Boiler" />
-                  <h4 class="boiler-text font-bold">Baxi 630 Gas Combi Boiler</h4>
-                  <h4 class="boiler-price orange">Fitted from £1,945</h4>
+                  <StaticImage objectFit="contain" className="boiler-image mx-auto d-inline-block" loading="lazy" src="../../images/Main_Eco_Compact_Combi_high_efficiency_condensing_combination_boiler1.jpg" alt="Main Eco Compact" />
+                  <h4 class="boiler-text font-bold">Main Eco Compact</h4>
+                  <h4 class="boiler-price orange">Fitted from £1,655.00</h4>
                 </div>
               </div>
 
               <div class="slide-wrapper">
                 <div class="text-center py-4 slide">
                   <div><span class="boiler-tag">Best value</span></div>
-                  <StaticImage className="boiler-image mx-auto d-inline-block" loading="lazy" src="../../images/baxi_boiler.png" alt="Baxi Boiler" />
-                  <h4 class="boiler-text font-bold">Baxi 630 Gas Combi Boiler</h4>
-                  <h4 class="boiler-price orange">Fitted from £1,945</h4>
+                  <StaticImage objectFit="contain" className="boiler-image mx-auto d-inline-block" loading="lazy" src="../../images/baxi_830.webp" alt="Baxi 830 Boiler" />
+                  <h4 class="boiler-text font-bold">Baxi 830 Boiler</h4>
+                  <h4 class="boiler-price orange">Fitted from £2,236.00</h4>
                 </div>
               </div>
 
