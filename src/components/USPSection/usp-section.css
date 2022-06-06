@@ -5,13 +5,13 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
  .container-usps {
-   min-height: 330px;
+   min-height: 310px;
  }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
  .container-usps {
-   min-height: 370px;
+   min-height: 320px;
  }
 }

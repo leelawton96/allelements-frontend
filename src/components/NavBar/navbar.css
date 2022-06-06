@@ -97,6 +97,11 @@ left: 50%;
 }
 .active {
  border-bottom: solid 2px var(--orange);
+ background-color: transparent;
+}
+.dropdown-item.active {
+  background-color: transparent;
+  color: var(--black);
 }
 .nav-link:active {
   border-bottom: solid 2px var(--orange) !important;

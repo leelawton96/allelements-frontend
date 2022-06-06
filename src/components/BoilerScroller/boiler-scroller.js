@@ -5,6 +5,7 @@ import Slider from "react-slick";
 import BlackPrevArrow from "../../images/prev_black.svg";
 import BlackNextArrow from "../../images/next_black.svg";
 import "../BoilerScroller/boiler-scroller.css"
+import { Link } from "gatsby";
 
 // export const boilerQuery = graphql`
 //   query {
@@ -79,8 +80,8 @@ const BoilerScroller = () => {
                 <div class="text-center py-4 slide">
                   <div><span class="boiler-tag">Popular</span></div>
                   <StaticImage objectFit="contain" className="boiler-image mx-auto d-inline-block" loading="lazy" src="../../images/baxi-600-combi.png" alt="Baxi 600 Boiler" />
-                  <h4 class="boiler-text font-bold">Baxi 600 Boiler</h4>
-                  <h4 class="boiler-price orange">Fitted from £1,944.00</h4>
+                  <h3 class="boiler-text font-bold">Baxi 600 Boiler</h3>
+                  <h3 class="boiler-price orange">Fitted from £1,944.00</h3>
                 </div>
               </div>
 
@@ -88,8 +89,8 @@ const BoilerScroller = () => {
                 <div class="text-center py-4 slide">
                   <div><span class="boiler-tag">Amazing efficiency</span></div>
                   <StaticImage objectFit="contain" className="boiler-image mx-auto d-inline-block" loading="lazy" src="../../images/viesmann-100w.jpeg" alt="Viessmann 100-W Boiler" />
-                  <h4 class="boiler-text font-bold">Viessmann 100-W Boiler</h4>
-                  <h4 class="boiler-price orange">Fitted from £2,305.00</h4>
+                  <h3 class="boiler-text font-bold">Viessmann 100-W Boiler</h3>
+                  <h3 class="boiler-price orange">Fitted from £2,305.00</h3>
                 </div>
               </div>
 
@@ -97,8 +98,8 @@ const BoilerScroller = () => {
                 <div class="text-center py-4 slide">
                   <div><span class="boiler-tag">Best value</span></div>
                   <StaticImage objectFit="contain" className="boiler-image mx-auto d-inline-block" loading="lazy" src="../../images/Main_Eco_Compact_Combi_high_efficiency_condensing_combination_boiler1.jpg" alt="Main Eco Compact" />
-                  <h4 class="boiler-text font-bold">Main Eco Compact</h4>
-                  <h4 class="boiler-price orange">Fitted from £1,655.00</h4>
+                  <h3 class="boiler-text font-bold">Main Eco Compact</h3>
+                  <h3 class="boiler-price orange">Fitted from £1,655.00</h3>
                 </div>
               </div>
 
@@ -154,8 +155,7 @@ const BoilerScroller = () => {
           
 
 
-
-          <a href="/boiler_quote_tool.html" class="btn-orange mb-5 mb-lg-0">Buy Your New Boiler</a>
+          <Link className="btn-orange mb-5 mb-lg-0" to="/boiler-quote-tool/">Get a FREE estimate</Link>
 
         </div>
 

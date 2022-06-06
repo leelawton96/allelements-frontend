@@ -53,7 +53,7 @@ const BoilerServicing = () => {
               <div class="col-12 col-md-4 pb-4 pb-lg-0">
                 <div class="container-bg py-4 px-4 boiler-pricing-box">
                   <div class="circle d-flex mx-auto mb-4">
-                  <StaticImage className="m-auto" loading="lazy" src="../images/boiler_fault.svg" alt="Boiler Fault" />
+                  <StaticImage className="m-auto" loading="lazy" src="../images/boiler_fault.svg" alt="Boiler Fault"  placeholder="tracedSVG"/>
                   </div>  
                   <h3 class="font-bold">Boiler Service</h3>
                   <h3 class="font-bold orange">£60.00</h3>
@@ -63,7 +63,7 @@ const BoilerServicing = () => {
               <div class="col-12 col-md-4 pb-4 pb-lg-0">
                 <div class="container-bg py-4 px-4 boiler-pricing-box">
                   <div class="circle d-flex mx-auto mb-4">
-                  <StaticImage className="m-auto" loading="lazy" src="../images/heat_fault.svg" alt="Heat Fault" />
+                  <StaticImage className="m-auto" loading="lazy" src="../images/heat_fault.svg" alt="Heat Fault"  placeholder="tracedSVG"/>
                   </div>  
                   <h3 class="font-bold">Fire Service</h3>
                   <h3 class="font-bold orange">£60.00</h3>
@@ -73,7 +73,7 @@ const BoilerServicing = () => {
               <div class="col-12 col-md-4 pb-4 pb-lg-0">
                 <div class="container-bg py-4 px-4 boiler-pricing-box">
                   <div class="circle d-flex mx-auto mb-4">
-                  <StaticImage className="m-auto" loading="lazy" src="../images/cylinder.svg" alt="Cylinder" />
+                  <StaticImage className="m-auto" loading="lazy" src="../images/cylinder.svg" alt="Cylinder"  placeholder="tracedSVG"/>
                   </div>  
                   <h3 class="font-bold">Unvented Cylinder Check</h3>
                   <h3 class="font-bold orange">£60.00</h3>
@@ -88,7 +88,7 @@ const BoilerServicing = () => {
               <div class="col-12 col-md-4 pb-4 pb-lg-0">
                 <div class="container-bg py-4 px-4 boiler-pricing-box">
                   <div class="circle d-flex mx-auto mb-4">
-                  <StaticImage className="m-auto" loading="lazy" src="../images/boiler_install.svg" alt="Boiler Install" />
+                  <StaticImage className="m-auto" loading="lazy" src="../images/boiler_install.svg" alt="Boiler Install"  placeholder="tracedSVG"/>
                   </div>  
                   <h3 class="font-bold">Boiler + 1 Appliance</h3>
                   <h3 class="font-bold orange">£100.00</h3>
@@ -98,7 +98,7 @@ const BoilerServicing = () => {
               <div class="col-12 col-md-4 pb-4 pb-lg-0">
                 <div class="container-bg py-4 px-4 boiler-pricing-box">
                   <div class="circle d-flex mx-auto mb-4">
-                    <StaticImage className="m-auto" loading="lazy" src="../images/lpg.svg" alt="LPG" />
+                    <StaticImage className="m-auto" loading="lazy" src="../images/lpg.svg" alt="LPG"  placeholder="tracedSVG"/>
                   </div>  
                   <h3 class="font-bold">LPG Service</h3>
                   <h3 class="font-bold orange">£80.00</h3>
@@ -108,7 +108,7 @@ const BoilerServicing = () => {
               <div class="col-12 col-md-4 pb-4 pb-lg-0">
                 <div class="container-bg py-4 px-4 boiler-pricing-box">
                   <div class="circle d-flex mx-auto mb-4">
-                    <StaticImage className="m-auto" loading="lazy" src="../images/safety.svg" alt="Safety" />
+                    <StaticImage className="m-auto" loading="lazy" src="../images/safety.svg" alt="Safety"  placeholder="tracedSVG"/>
                   </div>  
                   <h3 class="font-bold">Landlord Gas Safety (LGSR)</h3>
                   <h3 class="font-bold orange">From £70</h3>
@@ -139,7 +139,7 @@ const BoilerServicing = () => {
             <div class="row">
               <div class="col-12 col-md-4 pb-4 pb-lg-0">
                 <div class="container-bg py-5 px-3">
-                  <StaticImage className="pb-4" objectFit="contain" height={50} loading="lazy" src="../images/check_icon.svg" alt="Check Icon" />
+                  <StaticImage className="pb-4" objectFit="contain" height={50} loading="lazy" src="../images/check_icon.svg" alt="Check Icon"  placeholder="tracedSVG"/>
                   <h3 class="font-bold">Timed Appointments</h3>
                   <p>No more ¬waiting in for half the day. We’ll give you a timed appointment and call when we’re on the way.</p>
                 </div>
@@ -147,7 +147,7 @@ const BoilerServicing = () => {
   
               <div class="col-12 col-md-4 pb-4 pb-lg-0">
                 <div class="container-bg py-5 px-3">
-                  <StaticImage className="pb-4" objectFit="contain" height={50} loading="lazy" src="../images/check_icon.svg" alt="Check Icon" />
+                  <StaticImage className="pb-4" objectFit="contain" height={50} loading="lazy" src="../images/check_icon.svg" alt="Check Icon"  placeholder="tracedSVG"/>
                   <h3 class="font-bold">Digital Certificates</h3>
                   <p>Easy to read certificates are generated instantly and emailed to you.  Never lose this important document again.</p>
                 </div>
@@ -155,7 +155,7 @@ const BoilerServicing = () => {
   
               <div class="col-12 col-md-4 pb-4 pb-lg-0">
                 <div class="container-bg py-5 px-3">
-                  <StaticImage className="pb-4" objectFit="contain" height={50} loading="lazy" src="../images/check_icon.svg" alt="Check Icon" />
+                  <StaticImage className="pb-4" objectFit="contain" height={50} loading="lazy" src="../images/check_icon.svg" alt="Check Icon"  placeholder="tracedSVG"/>
                   <h3 class="font-bold">Email Reminders</h3>
                   <p>When your next service is due, you’ll receive a reminder two weeks before just in case this essential maintenance has slipped your mind.</p>
                 </div>

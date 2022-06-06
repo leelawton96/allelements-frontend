@@ -72,7 +72,7 @@ const Installations = () => {
 
               <div class="col-12 col-sm-6 col-lg-3 pb-4 pb-lg-0">
                 <div class="container-bg py-5 px-3 install-usps-box">
-                  <StaticImage className="pb-4" objectFit="contain" height={50} loading="lazy" src="../images/check_icon.svg" alt="Check Icon" />
+                  <StaticImage className="pb-4" objectFit="contain" height={50} loading="lazy" src="../images/check_icon.svg" alt="Check Icon"  placeholder="tracedSVG"/>
                   <h3 class="font-bold">A warmer home</h3>
                   <p>Older gas boilers become less efficient over time and can struggle to provide heat. A modern boiler can create a comfortable, warm atmosphere for your home.</p>
                 </div>
@@ -80,7 +80,7 @@ const Installations = () => {
 
               <div class="col-12 col-sm-6 col-lg-3 pb-4 pb-lg-0">
                 <div class="container-bg py-5 px-3 install-usps-box">
-                  <StaticImage className="pb-4" objectFit="contain" height={50} loading="lazy" src="../images/check_icon.svg" alt="Check Icon" />
+                  <StaticImage className="pb-4" objectFit="contain" height={50} loading="lazy" src="../images/check_icon.svg" alt="Check Icon"  placeholder="tracedSVG"/>
                   <h3 class="font-bold">Reduce your bills</h3>
                   <p>An elderly boiler is losing you money every single day, as well as pumping extra CO² into the environment.</p>
                 </div>
@@ -88,7 +88,7 @@ const Installations = () => {
 
               <div class="col-12 col-sm-6 col-lg-3 pb-4 pb-lg-0">
                 <div class="container-bg py-5 px-3 install-usps-box">
-                  <StaticImage className="pb-4" objectFit="contain" height={50} loading="lazy" src="../images/check_icon.svg" alt="Check Icon" />
+                  <StaticImage className="pb-4" objectFit="contain" height={50} loading="lazy" src="../images/check_icon.svg" alt="Check Icon"  placeholder="tracedSVG"/>
                   <h3 class="font-bold">Peace of mind</h3>
                   <p>All the boilers we fit come with up to 12 years manufacturer parts and labour warranties. Which we’ll register for you! Giving you hassle free heating for years to come.</p>
                 </div>
@@ -96,7 +96,7 @@ const Installations = () => {
 
               <div class="col-12 col-sm-6 col-lg-3 pb-4 pb-lg-0">
                 <div class="container-bg py-5 px-3 install-usps-box">
-                  <StaticImage className="pb-4" objectFit="contain" height={50} loading="lazy" src="../images/check_icon.svg" alt="Check Icon" />
+                  <StaticImage className="pb-4" objectFit="contain" height={50} loading="lazy" src="../images/check_icon.svg" alt="Check Icon"  placeholder="tracedSVG"/>
                   <h3 class="font-bold">Better control</h3>
                   <p>Combined with heating controls, new boilers allow the user to set the desired temperature. You can be far more precise with how much heat is required for each area, saving money and increasing comfort.</p>
                 </div>

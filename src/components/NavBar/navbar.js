@@ -44,7 +44,7 @@ const Navbar = () => {
                 )}
               /> */}
 
-              <Link className="nav-link navbar-brand" to="/">
+              <Link className="navbar-brand" to="/">
                 <StaticImage 
                 src="../../images/All_Elements_Logo_Dark.png" 
                 alt="All Elements Logo" 
@@ -78,7 +78,7 @@ const Navbar = () => {
                    <li class="nav-item">
                     <Link activeClassName="active" className="nav-link" to="/contact/">Contact</Link>
                    </li>
-                   <li class="nav-item mt-2 my-lg-auto btn-orange ms-lg-3 ms-xl-5">
+                   <li class="nav-item mt-2 my-lg-auto btn-orange ms-lg-3 ms-xl-3">
                     <Link to="/boiler-quote-tool/">Buy Your New Boiler</Link>
                    </li>
                  </ul>
@@ -86,24 +86,11 @@ const Navbar = () => {
 
            </nav>
 
-
          </div>
-
-          <script>
-
-            
-          </script>
 
      </div>
   )
 }
-
-// document.querySelector('.second-button').addEventListener('click', function () {
-
-//   document.querySelector('.animated-icon2').classList.toggle('open');
-
-// });
-
 
 
 export default Navbar

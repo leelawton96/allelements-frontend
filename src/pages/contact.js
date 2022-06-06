@@ -53,7 +53,7 @@ const Contact = () => {
                     <div class="col-12 col-md-4 pb-4 pb-lg-0">
                       <div class="container-bg py-4 px-4 contact-box">
                         <div class="circle d-flex mx-auto mb-4">
-                          <StaticImage className="m-auto" src="../images/tel.svg" alt="Telephone" layout="fixed" />
+                          <StaticImage className="m-auto" src="../images/tel.svg" alt="Telephone" layout="fixed" placeholder="tracedSVG"/>
                         </div>  
                         <h3 class="font-bold">Telephone</h3>
                         <h4 class="boiler-price orange"><Link to="tel:+01782 901071">01782 901071</Link></h4>
@@ -63,7 +63,7 @@ const Contact = () => {
                     <div class="col-12 col-md-4 pb-4 pb-lg-0">
                       <div class="container-bg py-4 px-4 contact-box">
                         <div class="circle d-flex mx-auto mb-4">
-                          <StaticImage className="m-auto" src="../images/location.svg" alt="Location" layout="fixed" />
+                          <StaticImage className="m-auto" src="../images/location.svg" alt="Location" layout="fixed" placeholder="tracedSVG"/>
                         </div>  
                         <h3 class="font-bold">Address</h3>
                         <h4 class="boiler-price orange">41 Third Avenue, Stoke-on-Trent,<br/> Staffordshire, ST71BY</h4>
@@ -73,7 +73,7 @@ const Contact = () => {
                     <div class="col-12 col-md-4 pb-4 pb-lg-0">
                       <div class="container-bg py-4 px-4 contact-box">
                         <div class="circle d-flex mx-auto mb-4">
-                          <StaticImage className="m-auto" src="../images/mail.svg" alt="Mail" layout="fixed" />
+                          <StaticImage className="m-auto" src="../images/mail.svg" alt="Mail" layout="fixed"  placeholder="tracedSVG"/>
                         </div>  
                         <h3 class="font-bold">Email</h3>
                         <h4 class="boiler-price orange"><Link to="mailto:info@all-elements.co.uk">info@all-elements.co.uk</Link></h4>

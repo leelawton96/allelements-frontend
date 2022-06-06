@@ -18,7 +18,7 @@ const CallCTA = () => {
 
      <div class="tel d-flex mb-4">
        <div class="mx-auto d-flex">
-        <StaticImage className="d-inline tel-icon" src="../../images/phone.svg" alt="Phone Icon" layout="fixed" />
+        <StaticImage className="d-inline tel-icon" src="../../images/phone.svg" alt="Phone Icon" layout="fixed"  placeholder="tracedSVG"/>
         <Link className="d-inline tel-text my-auto" to="tel:01782 901071">01782 901071</Link>
        </div>
      </div>

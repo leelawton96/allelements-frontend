@@ -28,6 +28,12 @@ Copyright 2022. All Rights Reserved.
 } */
 body {
   font-family: 'Montserrat', sans-serif;
+  text-rendering: optimizeLegibility; 
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
   color: var(--black);
   font-size: 13px;
   font-style: normal;
@@ -42,7 +48,7 @@ body {
   --orange-gradient: linear-gradient(90deg, #de4600 0%, #d67418 100%);
 }
 h1 {
-	font-size: 48px;
+	font-size: 42px;
   line-height: 55px;
 	font-weight: normal;
 }
@@ -506,7 +512,30 @@ text-decoration: none;
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
+  h1 {
+    font-size: 48px;
+    line-height: 55px;
+    font-weight: normal;
+  }
+  h2 {
+    font-size: 32px;
+    line-height: 48px;
+    margin: 0 0 16px;
+    font-weight: normal;
+  }
+  h3 {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 0 12px;
+    font-weight: normal;
+  }
+  h4 {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 0 12px;
+    font-weight: normal;
+  }
   .header-image {
     max-width: 400px;
     float: right;

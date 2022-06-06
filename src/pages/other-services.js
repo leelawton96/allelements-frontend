@@ -55,7 +55,7 @@ const Installations = () => {
               <div class="col-12 col-md-6 col-lg-3 pb-4 pb-lg-0">
                 <div class="container-bg py-4 px-4 pricing-box">
                   <div class="circle d-flex mx-auto mb-4">
-                    <StaticImage className="m-auto" src="../images/boiler_service.svg" alt="Boiler Service" layout="fixed" />
+                    <StaticImage className="m-auto" src="../images/boiler_service.svg" alt="Boiler Service" layout="fixed"  placeholder="tracedSVG"/>
                   </div>  
                   <h3 class="font-bold">Full central heating installations</h3>
                   <p>If you are looking to upgrade your complete central heating system or install one in a property that hasn’t previously had a system fitted. We can arrange a survey to design you an efficient system, tailored to your home.</p>
@@ -65,7 +65,7 @@ const Installations = () => {
               <div class="col-12 col-md-6 col-lg-3 pb-4 pb-lg-0">
                 <div class="container-bg py-4 px-4 pricing-box">
                   <div class="circle d-flex mx-auto mb-4">
-                    <StaticImage className="m-auto" src="../images/boiler_fault.svg" alt="Boiler Fault" layout="fixed" />
+                    <StaticImage className="m-auto" src="../images/boiler_fault.svg" alt="Boiler Fault" layout="fixed"  placeholder="tracedSVG"/>
                   </div>  
                   <h3 class="font-bold">Hot water systems </h3>
                   <p>Larger homes with multiple bathrooms are more suited to stored hot water cylinders. We can advise you of exactly the type of system you need, to ensure you never have to have a cold shower again.</p>
@@ -75,7 +75,7 @@ const Installations = () => {
               <div class="col-12 col-md-6 col-lg-3 pb-4 pb-lg-0">
                 <div class="container-bg py-4 px-4 pricing-box">
                   <div class="circle d-flex mx-auto mb-4">
-                    <StaticImage className="m-auto" src="../images/heat_fault.svg" alt="Boiler Fault" layout="fixed" />
+                    <StaticImage className="m-auto" src="../images/heat_fault.svg" alt="Boiler Fault" layout="fixed"  placeholder="tracedSVG"/>
                   </div>  
                   <h3 class="font-bold">Underfloor heating systems</h3>
                   <p>If you are looking for an efficient, less obtrusive way to heat your home (no more unsightly radiators on the walls) then we can design and install you a bespoke underfloor heating system.</p>
@@ -85,7 +85,7 @@ const Installations = () => {
               <div class="col-12 col-md-6 col-lg-3 pb-4 pb-lg-0">
                 <div class="container-bg py-4 px-4 pricing-box">
                   <div class="circle d-flex mx-auto mb-4">
-                  <StaticImage className="m-auto" src="../images/emergency_plumbing.svg" alt="Emergency Plumbing" layout="fixed" />
+                  <StaticImage className="m-auto" src="../images/emergency_plumbing.svg" alt="Emergency Plumbing" layout="fixed"  placeholder="tracedSVG"/>
                   </div>  
                   <h3 class="font-bold">New builds/Extensions </h3>
                   <p>Adding a little more to your home? Or building a new home from scratch? We can add in additional radiators, relocate them, or install you a completely new system.</p>
@@ -101,7 +101,7 @@ const Installations = () => {
               <div class="col-12 col-md-6 col-lg-3 pb-4 pb-lg-0">
                 <div class="container-bg py-4 px-4 pricing-box">
                   <div class="circle d-flex mx-auto mb-4">
-                  <StaticImage className="m-auto" src="../images/bathroom.svg" alt="Bathroom" layout="fixed" />
+                  <StaticImage className="m-auto" src="../images/bathroom.svg" alt="Bathroom" layout="fixed"  placeholder="tracedSVG"/>
                   </div>  
                   <h3 class="font-bold">Modifications to your existing system</h3>
                   <p>You don’t have to have a completely new system to make changes to you home. We can update your radiators or relocate them to a different wall if you want. </p>
@@ -111,7 +111,7 @@ const Installations = () => {
               <div class="col-12 col-md-6 col-lg-3 pb-4 pb-lg-0">
                 <div class="container-bg py-4 px-4 pricing-box">
                   <div class="circle d-flex mx-auto mb-4">
-                  <StaticImage className="m-auto" src="../images/boiler_install.svg" alt="Boiler Boiler install" layout="fixed" />
+                  <StaticImage className="m-auto" src="../images/boiler_install.svg" alt="Boiler Boiler install" layout="fixed"  placeholder="tracedSVG"/>
                   </div>  
                   <h3 class="font-bold">System upgrades </h3>
                   <p>From smart controls, Thermostatic radiator valves and powerflushing. There are many ways to increase the efficiency of your heating system to not only reduce your fuel bill but to also reduce your carbon footprint.</p>
@@ -121,7 +121,7 @@ const Installations = () => {
               <div class="col-12 col-md-6 col-lg-3 pb-4 pb-lg-0">
                 <div class="container-bg py-4 px-4 pricing-box">
                   <div class="circle d-flex mx-auto mb-4">
-                  <StaticImage className="m-auto" src="../images/radiator.svg" alt="Bespoke Bathroom Suites" layout="fixed" />
+                  <StaticImage className="m-auto" src="../images/radiator.svg" alt="Bespoke Bathroom Suites" layout="fixed"  placeholder="tracedSVG"/>
                   </div>  
                   <h3 class="font-bold">Bespoke bathroom suites</h3>
                   <p>Our team can help to design your dream bathroom. With extensive experience designing and so many installations we’ve lost count, whatever you have in mind we can make it a reality.</p>
@@ -131,7 +131,7 @@ const Installations = () => {
               <div class="col-12 col-md-6 col-lg-3 pb-4 pb-lg-0">
                 <div class="container-bg py-4 px-4 pricing-box">
                   <div class="circle d-flex mx-auto mb-4">
-                  <StaticImage className="m-auto" src="../images/hot_water_system.svg" alt="Hot Water System" layout="fixed" />
+                  <StaticImage className="m-auto" src="../images/hot_water_system.svg" alt="Hot Water System" layout="fixed"  placeholder="tracedSVG"/>
                   </div>  
                   <h3 class="font-bold">Emergency call outs</h3>
                   <p>No heating, hot water or is something leaking? No matter what has happened we are here to help. Our team of experienced engineers can handle any problem.</p>
