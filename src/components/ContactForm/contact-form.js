@@ -6,6 +6,10 @@ import emailjs from 'emailjs-com';
 import 'react-toastify/dist/ReactToastify.min.css';
 import "../ContactForm/contact-form.css"
 
+console.log(process.env.REACT_APP_SERVICE_ID)
+console.log(process.env.REACT_APP_TEMPLATE_ID)
+console.log(process.env.REACT_APP_USER_ID)
+
 const ContactForm = () => {
   const {
     register,
