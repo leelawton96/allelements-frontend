@@ -6,6 +6,7 @@ import emailjs from 'emailjs-com';
 import 'react-toastify/dist/ReactToastify.min.css';
 import "../ContactForm/contact-form.css"
 
+
 const ContactForm = () => {
   const {
     register,
@@ -46,10 +47,10 @@ const ContactForm = () => {
 
       // Use emailjs to email contact form data
       await emailjs.send(
-        process.env.REACT_APP_SERVICE_ID,
-        process.env.REACT_APP_TEMPLATE_ID,
+        process.env.GATSBY_SERVICE_ID,
+        process.env.GATSBY_TEMPLATE_ID,
         templateParams,
-        process.env.REACT_APP_USER_ID
+        process.env.GATSBY_USER_ID
       );
 
       // Reset contact form fields after submission
