@@ -1,11 +1,10 @@
 import React, { useRef } from "react"
-import "../TestimonialScroller/testimonial-scroller.css"
 import Testimonial from "../Testimonial/testimonial";
 // import { StaticQuery, graphql } from 'gatsby';
 import Slider from "react-slick";
 import WhitePrevArrow from "../../images/prev_white.svg";
 import WhiteNextArrow from "../../images/next_white.svg";
-import "../BoilerScroller/boiler-scroller.css"
+import "../TestimonialScroller/testimonial-scroller.css"
 
 // const testimonialQuery = graphql`
 //   query {

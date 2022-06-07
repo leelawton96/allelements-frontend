@@ -8,6 +8,8 @@ import AboutImage from "../images/about.png"
 import { Link } from "gatsby"
 
 
+
+
 const AboutPage = () => {
   return (
     <Layout>

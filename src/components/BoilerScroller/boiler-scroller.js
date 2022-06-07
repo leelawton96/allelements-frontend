@@ -1,11 +1,11 @@
 import React, { useRef } from "react"
+import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image"
 // import { StaticQuery, graphql } from 'gatsby';
 import Slider from "react-slick";
 import BlackPrevArrow from "../../images/prev_black.svg";
 import BlackNextArrow from "../../images/next_black.svg";
 import "../BoilerScroller/boiler-scroller.css"
-import { Link } from "gatsby";
 
 // export const boilerQuery = graphql`
 //   query {
