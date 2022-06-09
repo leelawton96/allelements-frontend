@@ -64,6 +64,7 @@ const ContactForm = () => {
     }
   };
 
+
   return (
     <div className='container-fluid ContactForm justify-content-center text-center pt-5'>
 
@@ -141,6 +142,7 @@ const ContactForm = () => {
         </div>
       </div>
     </div>
+
   );
 };
 

@@ -1,94 +1,96 @@
 import React from "react"
+import { useState } from "react"
 // import { StaticQuery, graphql } from 'gatsby';
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
+import { Squash as Hamburger } from 'hamburger-react'
 import "./navbar.css"
+import DropdownIcon from "../../images/dropdown.svg"
 
-// const query = graphql`
-//   query {
-//     allStrapiGlobal {
-//       nodes {
-//         siteLogo {
-//            localFile {
-//               url
-//             }
-//         }
-//       }
-//     }
-//   }
-// `;
 
 
 const Navbar = () => {
+
+  const [toggleIsOpen, toggleSetOpen] = useState(false)
+
+  const [dropdownIsOpen, dropdownSetOpen] = useState(false)
+
+  const handleDropdown = () => {
+    dropdownSetOpen(!dropdownIsOpen)
+  }
+
   return (
 
-         <div class="container-fluid">
-         <div class="container">
+    <div class="container-fluid">
+       
+      <div class="container nav-container">
+
+        <Link className="navbar-brand" to="/">
+          <StaticImage 
+          src="../../images/All_Elements_Logo_Dark.png" 
+          alt="All Elements Logo" 
+          placeholder="blurred"
+          layout="constrained"
+          objectFit="contain"
+          height={70}
+          />
+        </Link>
+
+        <Hamburger 
+        className="toggler" 
+        toggled={toggleIsOpen} 
+        toggle={toggleSetOpen} 
+        />
+
+        <div className={toggleIsOpen?'nav-list expanded':'nav-list'}>
+          <ul className="links">
+            <li>
+              <Link activeClassName="active" className="link" to="/">Home</Link>
+            </li>
+            <li>
+              <span 
+              className="link dropdown" 
+              onClick={handleDropdown}
+              onKeyDown={handleDropdown}
+              role="button"
+              tabIndex={0}>
+              Boilers & Heating <span>
+                  <img 
+                  className={dropdownIsOpen?'dropdown-icon clicked':'dropdown-icon'} 
+                  src={DropdownIcon} 
+                  alt="dropdown menu icon"
+                  />
+                </span>
+              </span>
+              <ul className={dropdownIsOpen?'dropdown-menu open':'dropdown-menu'} >
+                <li>
+                <Link activeClassName="active" className="link dropdown-item" to="/installations/">Installations</Link>
+                </li>
+                <li>
+                <Link activeClassName="active" className="link dropdown-item" to="/boiler-servicing">Boiler Servicing</Link>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <Link activeClassName="active" className="link" to="/other-services/">Other Services</Link>
+            </li>
+            <li>
+              <Link activeClassName="active" className="link" to="/about/">About</Link>
+            </li>
+            <li>
+              <Link activeClassName="active" className="link" to="/contact/">Contact</Link>
+            </li>
+            <li class="mt-2 my-lg-auto btn-orange ms-lg-3 ms-xl-3">
+              <Link to="/boiler-quote-tool/">Buy Your New Boiler</Link>
+            </li>
+          </ul>
+        </div>
 
 
-           <nav class="navbar navbar-expand-lg navbar-light">
+      </div>
 
-             <button class="navbar-toggler second-button" type="button" data-bs-toggle="collapse"
-             data-bs-target="#navbarNavDropdown"
-             aria-controls="navbarNavDropdown" aria-expanded="false"
-             aria-label="Toggle navigation">
-             <div class="animated-icon2"><span></span><span></span><span></span><span></span></div>
-             </button>
+    </div>
 
-             {/* <StaticQuery
-              query={query}
-                render={data => (
-                  <Link className="nav-link" to="/home/">
-                    <img src={data.allStrapiGlobal.nodes[0].siteLogo.localFile.url} alt="All Elements Logo"/>
-                  </a>
-                )}
-              /> */}
-
-              <Link className="navbar-brand" to="/">
-                <StaticImage 
-                src="../../images/All_Elements_Logo_Dark.png" 
-                alt="All Elements Logo" 
-                placeholder="blurred"
-                layout="constrained"
-                objectFit="contain"
-                height={70}
-                />
-              </Link>
-
-               <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                 <ul class="navbar-nav ms-lg-auto">
-                   <li class="nav-item">
-                    <Link activeClassName="active" className="nav-link" to="/">Home</Link>
-                   </li>
-                   <li class="nav-item dropdown">
-                     <span class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                       Boilers & Heating
-                     </span>
-                     <ul class="dropdown-menu" id="navbarDropdownMenuLink">
-                       <li><Link activeClassName="active" className="dropdown-item" to="/installations/">Installations</Link></li>
-                       <li><Link  activeClassName="active" className="dropdown-item" to="/boiler-servicing/">Boiler Servicing</Link></li>
-                     </ul>
-                   </li>
-                   <li class="nav-item">
-                    <Link activeClassName="active" className="nav-link" to="/other-services/">Other Services</Link>
-                   </li>
-                   <li class="nav-item">
-                    <Link activeClassName="active" className="nav-link" to="/about/">About</Link>
-                   </li>
-                   <li class="nav-item">
-                    <Link activeClassName="active" className="nav-link" to="/contact/">Contact</Link>
-                   </li>
-                   <li class="nav-item mt-2 my-lg-auto btn-orange ms-lg-3 ms-xl-3">
-                    <Link to="/boiler-quote-tool/">Buy Your New Boiler</Link>
-                   </li>
-                 </ul>
-               </div>
-
-           </nav>
-
-         </div>
-
-     </div>
   )
 }
 
