@@ -17,11 +17,14 @@
   z-index: 90;
   width: 100%;
   height: 0vh;
+  overflow: hidden;
   transition: height 0.6s ease-in-out;
   transition-delay: 0.2s;
 }
 .nav-list.expanded {
+  position: fixed;
   height: 100vh;
+  overflow: hidden;
   transition: height 0.6s ease-in-out;
 }
 .link {
@@ -85,7 +88,7 @@
   max-height: 0;
   opacity: 0;
   transition: all 0.5s ease-in-out;
-  padding: 20px auto;
+  padding: 0;
   border: none;
 }
 .dropdown-menu.open {
@@ -103,9 +106,11 @@
 }
 .active {
  border-bottom: solid 2px var(--orange);
- background-color: transparent;
 }
-
+.dropdown-item.active {
+  background-color: transparent;
+  color: var(--black);
+}
 .nav-link:active {
   border-bottom: solid 2px var(--orange) !important;
 }
@@ -193,9 +198,10 @@
     height: 0px;
     opacity: 0;
     transition: none;
-    padding: 20px auto;
+    min-width: 0;
   }
   .dropdown-menu.open {
+    padding: 10px 5px;
     text-align: start;
     margin-top: 10px;
     height: auto;
