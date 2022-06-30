@@ -102,7 +102,7 @@ a:hover {
   transition: all .2s ease-in-out;
 }
 .btn-orange:hover {
-  transform: scale(1.1); 
+  transform: scale(1.05); 
 }
 .btn-orange-outline {
   font-size: 14px;
@@ -115,7 +115,7 @@ a:hover {
   transition: all .2s ease-in-out;
 }
 .btn-outline:hover {
-  transform: scale(1.1); 
+  transform: scale(1.05); 
 }
 .btn-orange a {
   color: var(--white);

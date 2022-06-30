@@ -7,12 +7,12 @@ const BoilerQuoteTool = () => {
   return (
     <Layout>
       <main>
-      <Seo 
+      {/* <Seo 
         url="https://all-elements.co.uk"
         title="Get a FREE Boiler Quote | All Elements Property Services"
         description="All Elements is your local, reliable heating and plumbing experts in Staffordshire & Cheshire. From boiler installations and services to bathrooms, get in touch"
-      />
-      <script async defer id="truequote_script" src="https://truequote.co.uk/quote/alle20210421091343/js" />
+      /> */}
+      <script async defer id="truequote_script" src="https://truequote.co.uk/quote/alle20210421091343/js"></script>
 
       </main>
     </Layout>
