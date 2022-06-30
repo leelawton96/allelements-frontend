@@ -14,7 +14,7 @@ const IndexPage = () => {
     <Layout>
     <main>
       <Seo 
-        url="https://www.all-elements.co.uk"
+        url="https://all-elements.co.uk"
         title="All Elements | Boiler installations for all budgets!"
         description="All Elements is your local, reliable heating and plumbing experts in Staffordshire & Cheshire. From boiler installations and services to bathrooms, get in touch"
       />

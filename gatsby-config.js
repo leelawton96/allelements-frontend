@@ -3,7 +3,7 @@ module.exports = {
     title: `All Elements | Boiler installations for all budgets!`,
     description: `All Elements is your local, reliable heating and plumbing experts in Staffordshire & Cheshire. From boiler installations and services to bathrooms, get in touch`,
     author: `Lee Lawton Design`,
-    siteUrl: `https://www.-all-elements.co.uk`,
+    siteUrl: `https://all-elements.co.uk`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
