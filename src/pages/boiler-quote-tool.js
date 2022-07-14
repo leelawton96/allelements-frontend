@@ -1,11 +1,15 @@
 import React from "react"
 import Layout from "../components/Layout/layout"
 import Seo from "../components/SEO/seo"
-import { Helmet } from "react-helmet"
-import { onRenderBody } from "../../gatsby-ssr"
+import InnerHTML from 'dangerously-set-html-content'
+
 
 
 const BoilerQuoteTool = () => {
+
+  const html = `
+  <script async defer id="truequote_script" src="https://truequote.co.uk/quote/alle20210421091343/js"></script>
+  `
 
 
   return (
@@ -17,7 +21,7 @@ const BoilerQuoteTool = () => {
         description="All Elements is your local, reliable heating and plumbing experts in Staffordshire & Cheshire. From boiler installations and services to bathrooms, get in touch"
       />
       
-      <script async defer id="truequote_script" src="https://truequote.co.uk/quote/alle20210421091343/js"></script>
+      <InnerHTML html={html} />
 
       </main>
     </Layout>
